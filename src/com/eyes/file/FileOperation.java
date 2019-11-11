@@ -31,6 +31,8 @@ public class FileOperation {
 		getAllPaths(path);
 	}
 
+	
+	
 	private void getAllPaths(String path) throws Exception{
 		File file = new File(path);
 		if (file.isDirectory()) {//ÊÇÎÄ¼þ¼Ð

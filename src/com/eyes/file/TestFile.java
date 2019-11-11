@@ -11,6 +11,8 @@ public class TestFile {
 		System.out.println("请输入保存的文件/文件夹路径：");
 		String pathWrite = scan.nextLine();
 		
+		
+		
 		FileOperation fr = new FileOperation(pathRead);
 		List<String> lf = fr.getAllChildPaths();
 		fr.setAllSavePaths(pathWrite);
